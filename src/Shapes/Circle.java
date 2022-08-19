@@ -22,12 +22,12 @@ public class Circle extends Shape{
 
     @Override
     double getArea() {
-        return (double)Math.round(Math.PI*radius*radius*100)/100;
+        return (double)Math.round(Math.PI*radius*radius*100)/100.0;
     }
 
     @Override
     double getPerimeter() {
-        return (double)Math.round(2*Math.PI*radius*100)/100;
+        return (double)Math.round(2*Math.PI*radius*100)/100.0;
     }
 
     @Override

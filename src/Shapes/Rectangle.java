@@ -29,13 +29,13 @@ public class Rectangle extends Shape{
     @Override
     double getArea() {
 
-        return (double)Math.round(width*length*100)/100;
+        return (double)Math.round(width*length*100)/100.0;
     }
 
     @Override
     double getPerimeter() {
 
-        return (double)Math.round((width+length)*100)/100;
+        return (double)Math.round((width+length)*100)/100.0;
     }
 
     @Override
